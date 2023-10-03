@@ -1,0 +1,262 @@
+/* General style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+/* Nav style */
+header{
+    background-color: #0f192c;
+}
+.nav__items{
+    display: flex;
+    padding: 15px 20px;
+    
+}
+.logo{
+    flex: 1;
+    color: #fff;
+    margin-top: 5px;
+}
+.nav__pages{
+    display: flex;
+    flex: 4;
+    justify-content: end;
+    padding: 0 20px;
+
+}
+.nav__list li{
+    padding: 5px 15px;
+    display: inline-block;
+}
+.nav__list li a{
+    color:rgb(190, 189, 189);
+    text-transform: capitalize;
+}
+.nav__btn{
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f19c25;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+/* header content */
+.header__content{
+    display: flex;
+    margin-top: 60px;
+}
+.header__img{
+    margin-top: 80px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+
+}
+.header__img img{
+    border-radius: 8px 8px 0 0;
+}
+.header__decription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+}
+.heaer__dec{
+    width: 60%;
+    margin-left: 50px;
+}
+.heaer__dec h1{
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.heaer__dec p{
+    color: gray;
+}
+.header__input{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 7px;
+    color: gray;
+    align-items: center;
+}
+.header__input span{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.header__input button{
+    border-radius: 8px ;
+    outline: none;
+    border: none;
+    background-color: #f19c25;
+    padding: 15px 20px;
+}
+.arrow{
+    color: #f19c25;
+}
+/* Quality section */
+.quality__edu{
+    margin-top: 70px;
+    display: flex;
+}
+.student__image{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    padding-left: 50px;
+}
+.student__image img{
+    border-radius: 8px 8px 0 0;
+}
+.quality__desc{
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;	
+    justify-content: center;
+}
+.description{
+    width: 50%;
+}
+.description p{
+    margin: 10px 0 20px 0;
+    color: gray;
+}
+.description button{
+    padding: 10px 20px;
+    background-color: #f19c25;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+/* popular courses section */
+.pop__course{
+    margin-top: 120px;
+    padding-bottom: 50px;
+    background-color: #fcf6f6;
+}
+.pop__course p{
+    margin-top: 10px;
+}
+.pop__course__title{
+    padding: 40px 0;
+    text-align: center;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+
+}
+.courses__item{
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.course__img{
+    background-color: rgb(236, 233, 233);
+    height: 70%;
+    border-radius: 8px 8px 0 0;
+
+}
+.course__details{
+  padding: 20px 10px;
+}
+.course__details h4{
+    margin: 10px 0;
+
+}
+.price{
+    color: #f19c25;
+    font-size: 20px;
+    font-weight: bold;
+}
+.explore__btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.course__ratting span.active{
+    color: orange
+}
+.explore__btn button{
+    padding: 10px 20px;
+    background-color: #f19c25;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+/* student__opinions */
+.student__opinions{
+    margin-top:100px;
+    padding-bottom: 50px; 
+    background-color: #fffafa;
+}
+.student__opinions .opinion__title {
+    display: block;
+    padding-top: 50px;
+}
+.opinion__title h1{
+    font-size: 30px;
+}
+.opinion__title p{
+    margin-top: 15px;
+    color: gray;
+}
+.student__op{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+.opinion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+.st__ratting{
+    position: relative;
+}
+.st__ratting span.icon{
+    right: 0;
+    position: absolute;
+    color: rgb(73, 72, 72);
+    font-size: 25px;
+}
+.st__ratting span.active{
+    color: orange
+}
+.student__account{
+    display: flex;
+} 
+.student__account .student__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(216, 212, 212);
+}
+.student__details{
+    padding: 5px 10px;
+}
+
+.student__account span{
+    display: block;
+    color:gray;
+    margin-top: 5px;
+}
